@@ -17,7 +17,7 @@
   <meta name="description" content="爱生活，爱拉风">
   <meta name="author" content="GitArtOS">
   <meta name="keywords" content="">
-  <title>关于 - GitArtOS</title>
+  <title>GitArtOS</title>
 
   <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
 <link  rel="stylesheet" href="https://cdn.staticfile.org/github-markdown-css/4.0.0/github-markdown.min.css" />
@@ -46,7 +46,7 @@
 
 
 <body>
-  <header style="height: 60vh;">
+  <header style="height: 100vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand"
@@ -132,6 +132,10 @@
           </div>
 
           
+            <div class="scroll-down-bar">
+              <i class="iconfont icon-arrowdown"></i>
+            </div>
+          
         </div>
       </div>
     </div>
@@ -141,20 +145,107 @@
     
       <div class="container nopadding-md">
         <div class="py-5" id="board"
-          >
+          style=margin-top:0>
           
           <div class="container">
             <div class="row">
               <div class="col-12 col-md-10 m-auto">
                 
 
-<div class="page-content">
-  <p>我越来越懒了，懒到不愿去主动喜欢一个人，懒到伸出一下橄榄枝就迫切地要收回，甚至懒得去清理清理旧伤口去迎接新房客。</p>
-<p>我们太追求性价比了，哪怕是喜欢一个人，也想在最短的时间最快的建立起关系。一旦超过了那个时限，就会把好感收回，假装那些喜欢都没发生。</p>
-<p>我们忘了，我们可以走好远的路只为吃到一家好评餐厅，排好久的队去饮一杯仅仅是为了拍照发在朋友圈的新品奶茶，等好长时间的预售期去买一件可能只穿一季的衣服。</p>
-<p>再等等吧，如果那些不足为奇都可以去浪费。那样珍贵的喜欢，值得我们足够的耐心去等。</p>
 
-</div>
+  <div class="row mx-auto index-card">
+    
+    
+    <div class="col-12 col-md-12 mx-auto index-info">
+      <a class="index-header" href="/2009/03/22/%E5%A5%BD%E6%83%B3%E4%BD%A0/">好想你</a>
+
+      <a href="/2009/03/22/%E5%A5%BD%E6%83%B3%E4%BD%A0/" class="index-excerpt">
+        
+        
+          
+        
+        <div>路上看见一对小情侣在路边吵架。
+女孩子一边甩开男生拉着她的手，一边抹鼻子擦眼泪加快脚步往前走。男生倒是蛮聪明的，并没有因为女孩的不理睬而离开，反而小跑着追上去哄她。
+我看到男生把女孩子抱在怀里轻轻抚摸她的头，试图安抚她的情绪。起初女孩子满脸不情愿地想要推开他，没挣扎两下就也双手环住男生的脖子趴在他肩膀上熊抱他。
+那一瞬间觉得，爱情最神奇的样子大概就是这样了吧！
+上一秒两个人还唇枪舌剑各不相让，下一</div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>&nbsp;2009-03-22
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/categories/%E6%97%A5%E8%AE%B0/">日记</a>
+            
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E7%A7%98%E5%AF%86/">秘密</a>
+            
+          </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <div class="col-12 col-md-12 mx-auto index-info">
+      <a class="index-header" href="/2008/05/28/hello-world/">Hello World</a>
+
+      <a href="/2008/05/28/hello-world/" class="index-excerpt">
+        
+        
+          
+        
+        <div>Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
+Quick</div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>&nbsp;2008-05-28
+          </div>
+        
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E7%BC%96%E7%A8%8B/">编程</a>
+            
+          </div>
+        
+      </div>
+    </div>
+  </div>
+
+
+
+  <nav aria-label="navigation">
+    <span class="pagination" id="pagination">
+      <a class="extend prev" rel="prev" href="/"><i class="iconfont icon-arrowleft"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
+    </span>
+  </nav>
+  
+  <script>
+    for (ele of document.getElementById("pagination").getElementsByTagName("a")) {
+      ele.href += '#board';
+    }
+  </script>
+
+
 
               </div>
             </div>
@@ -243,7 +334,7 @@
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "关于&nbsp;",
+        "出走半生，归来仍是少年！&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 70,
